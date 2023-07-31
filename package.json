@@ -1,0 +1,61 @@
+{
+  "name": "neko9lives",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A browser game built in MERN stack. It is similar to hangman.",
+  "main": "index.html",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-dev-server": "cd server && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajajshubham/neko9lives.git"
+  },
+  "keywords": [
+    "neko9lives",
+    "neko nine lives",
+    "hangman",
+    "MERN",
+    "browser game"
+  ],
+  "author": "Shubham Bajaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bajajshubham/neko9lives.git/issues"
+  },
+  "homepage": "https://github.com/bajajshubham/neko9lives.git#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

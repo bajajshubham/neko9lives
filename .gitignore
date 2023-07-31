@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+/node_modules
+/.codesandbox
+
+# for game-client
+# dependencies
+/game-client/node_modules
+game-client/.pnp
+game-client/.pnp.js
+
+# testing
+/game-client/coverage
+
+# production
+game-client/build
+
+# misc
+game-client/.DS_Store
+game-client/.env.local
+game-client/.env.development.local
+game-client/.env.test.local
+game-client/.env.production.local
+
+game-client/npm-debug.log*
+game-client/yarn-debug.log*
+game-client/yarn-error.log*
