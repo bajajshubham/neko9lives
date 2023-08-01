@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A browser game built in MERN stack. It is similar to hangman.",
-  "main": "index.html",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -27,7 +27,6 @@
   "bugs": {
     "url": "https://github.com/bajajshubham/neko9lives.git/issues"
   },
-  "homepage": "https://github.com/bajajshubham/neko9lives.git#readme",
   "devDependencies": {
     "nodemon": "^2.0.22"
   },
