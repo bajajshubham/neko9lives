@@ -9,7 +9,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start-dev-server": "cd game-server && nodemon server.js"
+    "start-dev-server": "nodemon game-server/server.js"
   },
   "repository": {
     "type": "git",
