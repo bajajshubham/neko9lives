@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "description": "A browser game built in MERN stack. It is similar to hangman.",
-  "main": "index.html",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "start-dev-server": "cd server && nodemon server.js"
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -27,17 +26,25 @@
   "bugs": {
     "url": "https://github.com/bajajshubham/neko9lives.git/issues"
   },
-  "homepage": "https://github.com/bajajshubham/neko9lives.git#readme",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "css-loader": "^6.8.1"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.2",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-jwt": "^1.2.0",
+    "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
+    "socket.io-client": "^4.6.2",
     "web-vitals": "^2.1.4"
   },
   "eslintConfig": {
