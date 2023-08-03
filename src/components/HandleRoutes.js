@@ -4,6 +4,7 @@ import Login from "./auth/Login";
 import MainMenu from "./menu/MainMenu";
 import Join from "./room/Join/Join";
 import Create from "./room/Create/Create";
+import Lobby from "./room/Create/Lobby";
 
 const HandleRoutes = () => {
   return (
@@ -13,6 +14,7 @@ const HandleRoutes = () => {
       <Route path="/home" element={<MainMenu />} />
       <Route path="/join" element={<Join />} />
       <Route path="/room/create" element={<Create />} />
+      <Route path="/lobby/:roomID" element={<Lobby />} />
 
       <Route path="*" element={<p>There's nothing here: 404!</p>} />
     </Routes>
