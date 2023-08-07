@@ -31,14 +31,7 @@
       "name": "eject",
       "command": "yarn eject",
       "runAtStart": false
-    },
-    "start-dev-server": {
-      "name": "start-dev-server",
-      "command": "yarn start-dev-server",
-      "runAtStart": true,
-      "preview": {
-        "port": 5000
-      }
+    }
     }
   }
 }
