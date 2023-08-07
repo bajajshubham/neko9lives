@@ -1,4 +1,4 @@
-export const __BASE_URL__ = "http://localhost:5000";
+export const __BASE_URL__ = "https://9fz5gp-5000.csb.app";
 
 //auth
 export const __SIGNUP_URL__ = "https://ninelivesreg.onrender.com/register";
